@@ -1,13 +1,10 @@
-import './App.css';
+import React from "react";
+import Home from "./pages/Home";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <Home />
     </div>
   );
 }
-
-export default App;
